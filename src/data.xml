@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <zodiac>
+        <sign name="Acuario" start="20/01" end="18/02" src="acuario.png" />
+        <sign name="Piscis" start="19/02" end="20/03" src="piscis.png" />
+        <sign name="Aries" start="21/03" end="19/04" src="aries.png" />
+        <sign name="Tauro" start="20/04" end="20/05" src="tauro.png" />
+        <sign name="Géminis" start="21/05" end="20/06" src="geminis.png" />
+        <sign name="Cáncer" start="21/06" end="22/07" src="cancer.png" />
+        <sign name="Leo" start="23/07" end="22/08" src="leo.png" />
+        <sign name="Virgo" start="23/08" end="22/09" src="virgo.png" />
+        <sign name="Libra" start="23/09" end="22/10" src="libra.png" />
+        <sign name="Escorpio" start="23/10" end="21/11" src="escorpio.png" />
+        <sign name="Sagitario" start="22/11" end="21/12" src="sagitario.png" />
+        <sign name="Capricornio" start="22/12" end="19/01" src="capricornio.png" />
+    </zodiac>
+    <chinese>
+        <animal name="Rata" years="2020,2008,1996,1984,1972" src="rata.png" />
+        <animal name="Buey" years="2021,2009,1997,1985,1973" src="buey.png" />
+        <animal name="Tigre" years="2022,2010,1998,1986,1974" src="tigre.png" />
+        <animal name="Conejo" years="2023,2011,1999,1987,1975" src="conejo.png" />
+        <animal name="Dragón" years="2024,2012,2000,1988,1976" src="dragon.png" />
+        <animal name="Serpiente" years="2025,2013,2001,1989,1977" src="serpiente.png" />
+        <animal name="Caballo" years="2014,2002,1990,1978,1966" src="caballo.png" />
+        <animal name="Cabra" years="2015,2003,1991,1979,1967" src="cabra.png" />
+        <animal name="Mono" years="2016,2004,1992,1980,1968" src="mono.png" />
+        <animal name="Gallo" years="2017,2005,1993,1981,1969" src="gallo.png" />
+        <animal name="Perro" years="2018,2006,1994,1982,1970" src="perro.png" />
+        <animal name="Cerdo" years="2019,2007,1995,1983,1971" src="cerdo.png" />
+    </chinese>
+</data>

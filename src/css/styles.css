@@ -1,0 +1,129 @@
+/* TIPOGRAFÍA GLOBAL */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+/* CONTENEDOR GENERAL */
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* TÍTULOS CENTRADOS */
+#introContainer h2, #container h2, #chineseSignContainer h2 {
+    text-align: left;
+}
+
+/* GRID DE SIGNOS ZODIACALES */
+#container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#container .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 50%;
+}
+
+.grid div {
+    text-align: center;
+}
+
+.grid img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* DETALLE DE SIGNO */
+#selectedSign {
+    width: 50%;
+    border-left: 2px solid #eee;
+    padding-left: 30px;
+}
+
+#birthdate-section {
+    background-color: #fff0f4;
+    padding: 20px 30px;
+    margin: 60px 0;
+    border: 2px solid #ffcdd2;
+    border-radius: 10px;
+}
+
+#birthdate-section input {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#birthdate-section p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#chineseSignContainer table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#chineseSignContainer td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+#chineseSignContainer img {
+    width: 60px;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+#chineseSignContainer td div {
+    font-weight: bold;
+}
+
+button {
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #container .grid,
+    #selectedSign {
+        width: 100%;
+    }
+
+    #chineseSignContainer table {
+        width: 100%;
+    }
+
+    #chineseSignContainer td {
+        padding: 10px;
+    }
+}
