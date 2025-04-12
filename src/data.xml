@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <zodiac>
-        <sign name="Acuario" start="20/01" end="18/02" src="acuario.png" />
-        <sign name="Piscis" start="19/02" end="20/03" src="piscis.png" />
-        <sign name="Aries" start="21/03" end="19/04" src="aries.png" />
-        <sign name="Tauro" start="20/04" end="20/05" src="tauro.png" />
-        <sign name="Géminis" start="21/05" end="20/06" src="geminis.png" />
-        <sign name="Cáncer" start="21/06" end="22/07" src="cancer.png" />
-        <sign name="Leo" start="23/07" end="22/08" src="leo.png" />
-        <sign name="Virgo" start="23/08" end="22/09" src="virgo.png" />
-        <sign name="Libra" start="23/09" end="22/10" src="libra.png" />
-        <sign name="Escorpio" start="23/10" end="21/11" src="escorpio.png" />
-        <sign name="Sagitario" start="22/11" end="21/12" src="sagitario.png" />
-        <sign name="Capricornio" start="22/12" end="19/01" src="capricornio.png" />
+        <sign name="Acuario" start="20/01" end="18/02" src="acuario.png" eng="Aquarius" description="Acuario es un signo de aire, conocido por su pensamiento independiente y su enfoque humanitario." />
+        <sign name="Piscis" start="19/02" end="20/03" src="piscis.png" eng="Pisces" description="Piscis es un signo de agua, famoso por su sensibilidad, creatividad y empatía." />
+        <sign name="Aries" start="21/03" end="19/04" src="aries.png" eng="Aries" description="Aries es un signo de fuego, conocido por su valentía, impulso y actitud competitiva." />
+        <sign name="Tauro" start="20/04" end="20/05" src="tauro.png" eng="Taurus" description="Tauro es un signo de tierra, reconocido por su estabilidad, paciencia y aprecio por los placeres sensoriales." />
+        <sign name="Géminis" start="21/05" end="20/06" src="geminis.png" eng="Gemini" description="Géminis es un signo de aire, caracterizado por su curiosidad, adaptabilidad y su habilidad para comunicarse." />
+        <sign name="Cáncer" start="21/06" end="22/07" src="cancer.png" eng="Cancer" description="Cáncer es un signo de agua, conocido por su intuición, empatía y su enfoque hacia la familia y el hogar." />
+        <sign name="Leo" start="23/07" end="22/08" src="leo.png" eng="Leo" description="Leo es un signo de fuego, reconocido por su liderazgo, generosidad y naturaleza extrovertida." />
+        <sign name="Virgo" start="23/08" end="22/09" src="virgo.png" eng="Virgo" description="Virgo es un signo de tierra, valorado por su atención al detalle, analiticidad y naturaleza práctica." />
+        <sign name="Libra" start="23/09" end="22/10" src="libra.png" eng="Libra" description="Libra es un signo de aire, caracterizado por su enfoque equilibrado, su sentido de justicia y su amor por la belleza." />
+        <sign name="Escorpio" start="23/10" end="21/11" src="escorpio.png" eng="Scorpio" description="Escorpio es un signo de agua, conocido por su intensidad emocional, pasión y misterio." />
+        <sign name="Sagitario" start="22/11" end="21/12" src="sagitario.png" eng="Sagittarius" description="Sagitario es un signo de fuego, famoso por su optimismo, su deseo de aventura y su amor por la libertad." />
+        <sign name="Capricornio" start="22/12" end="19/01" src="capricornio.png" eng="Capricorn" description="Capricornio es un signo de tierra, valorado por su disciplina, ambición y sentido práctico." />
     </zodiac>
     <chinese>
         <animal name="Rata" years="2020,2008,1996,1984,1972" src="rata.png" />
